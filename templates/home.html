@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijaya Hospital</title>
+</head>
+{%block content%}
+<body class="bg-gray-100">
+
+    <!-- Navigation bar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-white text-lg font-bold">Hospital Name</h1>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="text-white hover:underline">Pharmacy</a>
+                <a href="#" class="text-white hover:underline">Rooms</a>
+                <a href="#" class="text-white hover:underline">Staff</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mx-auto mt-8">
+        <h2 class="text-2xl font-bold mb-4">Welcome to Our Hospital</h2>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed urna vel sapien
+            fermentum fermentum vitae sit amet felis. Proin id purus id urna fringilla consequat. Aliquam erat
+            volutpat. Integer euismod posuere lorem, a volutpat eros lobortis et.</p>
+    </div>
+
+</body>
+{%endblock%}
+</html>
